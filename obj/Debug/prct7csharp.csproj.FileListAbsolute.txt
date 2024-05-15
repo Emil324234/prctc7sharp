@@ -26,3 +26,5 @@ E:\OneDrive\Рабочий стол\да\prct7csharp\prct7csharp\obj\Debug\Admin
 E:\OneDrive\Рабочий стол\да\prct7csharp\prct7csharp\obj\Debug\AdminWindow.baml
 E:\OneDrive\Рабочий стол\да\prct7csharp\prct7csharp\obj\Debug\UserWindow.g.cs
 E:\OneDrive\Рабочий стол\да\prct7csharp\prct7csharp\obj\Debug\UserWindow.baml
+E:\OneDrive\Рабочий стол\да\prct7csharp\prct7csharp\obj\Debug\ChatWindow.g.cs
+E:\OneDrive\Рабочий стол\да\prct7csharp\prct7csharp\obj\Debug\ChatWindow.baml
