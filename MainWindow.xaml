@@ -15,10 +15,10 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Button Grid.Row="2" Content="Я хочу создать новый чат" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <Button Grid.Row="4" Content="Я хочу подключиться к существующему чату" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button x:Name="createChat" Grid.Row="2" Content="Я хочу создать новый чат" HorizontalAlignment="Left" VerticalAlignment="Top" Click="createChat_Click"/>
+        <Button x:Name="connectChat" Grid.Row="4" Content="Я хочу подключиться к существующему чату" HorizontalAlignment="Left" VerticalAlignment="Top" Click="connectChat_Click"/>
         <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Добро пожаловать в сетевой чат!" VerticalAlignment="Center" FontSize="20"/>
-        <TextBox Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" TextChanged="TextBox_TextChanged" md:HintAssist.Hint="Введите имя пользователя"/>
-        <TextBox Grid.Row="3" HorizontalAlignment="Stretch"  TextWrapping="Wrap" md:HintAssist.Hint="IP адрес чата" VerticalAlignment="Bottom" FontStretch="ExtraExpanded"/>
+        <TextBox x:Name="userName" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" md:HintAssist.Hint="Введите имя пользователя"/>
+        <TextBox x:Name="ipAD" Grid.Row="3" HorizontalAlignment="Stretch"  TextWrapping="Wrap" md:HintAssist.Hint="IP адрес чата" VerticalAlignment="Bottom" FontStretch="ExtraExpanded"/>
     </Grid>
 </Window>

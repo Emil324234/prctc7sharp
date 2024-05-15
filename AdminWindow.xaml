@@ -19,15 +19,15 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Button Grid.Column="1" Content="Посмотреть логи" HorizontalAlignment="Right" VerticalAlignment="Center"/>
-        <Button Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Button x:Name="exit" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" Click="exit_Click">
             <md:PackIcon Kind="ExitRun"/>
         </Button>
-        <Button Grid.Row="2" Grid.Column="3" HorizontalAlignment="Stretch" VerticalAlignment="Center">
+        <Button x:Name="send" Grid.Row="2" Grid.Column="3" HorizontalAlignment="Stretch" VerticalAlignment="Center" Click="send_Click">
             <md:PackIcon Kind="Send"/>
         </Button>
         <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Список пользователей" VerticalAlignment="Center" FontSize="18"/>
-        <ListBox Grid.Row="1"/>
-        <ListBox Grid.Row="1" Grid.Column="1"/>
-        <TextBox Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" TextChanged="TextBox_TextChanged" md:HintAssist.Hint="Введите сообщение"/>
+        <ListBox x:Name="userList" Grid.Row="1"/>
+        <ListBox x:Name="messages" Grid.Row="1" Grid.Column="1"/>
+        <TextBox x:Name="msg" Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" md:HintAssist.Hint="Введите сообщение"/>
     </Grid>
 </Window>

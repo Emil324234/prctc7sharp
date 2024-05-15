@@ -28,3 +28,4 @@ C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\messenger
 C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\messenger_prct\messenger_prct\obj\Debug\net8.0-windows\messenger_prct.pdb
 C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\messenger_prct\messenger_prct\obj\Debug\net8.0-windows\messenger_prct.genruntimeconfig.cache
 C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\messenger_prct\messenger_prct\obj\Debug\net8.0-windows\ref\messenger_prct.dll
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\messenger_prct\messenger_prct\obj\Debug\net8.0-windows\messenger_prct.sourcelink.json

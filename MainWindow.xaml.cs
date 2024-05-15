@@ -22,9 +22,37 @@ namespace messenger_prct
             InitializeComponent();
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void createChat_Click(object sender, RoutedEventArgs e)
         {
-
+            if (userName.Text != string.Empty)
+            {
+                AdminWindow admin = new AdminWindow();
+                Close();
+                admin.Show();
+            }
+            else
+            {
+                MessageBox.Show("Необходимо ввести имя пользователя.", "Пустое текстовое поле!", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
         }
+
+        private void connectChat_Click(object sender, RoutedEventArgs e)
+        {
+            if (ipAD.Text == "26.233.141.179" && userName.Text != string.Empty)
+            {
+                UserWindow user = new UserWindow();
+                Close();
+                user.Show();
+            }
+            else if (ipAD.Text != "26.233.141.179" && userName.Text != string.Empty)
+            {
+                MessageBox.Show("Такого чата не существует.", "Неверный IP адрес!", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            else if (ipAD.Text == string.Empty || userName.Text == string.Empty)
+            {
+                MessageBox.Show("Необходимо заполнить все поля.", "Пустое текстовое поле!", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+        }
+
     }
 }
